@@ -1,7 +1,7 @@
+package SortingAlgo;
 
 public class BubbleSort {
-
-	public static int[] sortArray(int ary[]) {
+public static int[] sortArray(int ary[]) {
 		
 		for ( int i = 0 ; i < ary.length ; i++ ) {
 			for ( int j = 0 ; j < ary.length - 1 - i ; j++) {
@@ -54,5 +54,4 @@ public class BubbleSort {
 		BubbleSort.traverseArray(ary1);
 		
 	}
-	
 }
